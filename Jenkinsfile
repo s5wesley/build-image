@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = 'docker.io'
-        DOCKER_IMAGE_NAME = 'nginx'
-        DOCKER_IMAGE_TAG = 'latest'
+        DOCKER_IMAGE_NAME = 'myapps'
+        DOCKER_IMAGE_TAG = 'v4'
         DOCKER_REPO_USERNAME = 'mbargabella'
         DOCKER_REPO_PASSWORD = 'dckr_pat_VTa3FXQui2g2gO3rucO1xK1IZ3A'
     }
